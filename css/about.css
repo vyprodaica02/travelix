@@ -1,0 +1,69 @@
+.about{
+    padding: 90px 0;
+}
+.about-item{
+    background-image: url("https://khoatranvn00.github.io/travelix/assets/images/ab1.webp");
+    padding-top: 130%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0 12px  20px 12px;
+}
+
+.about-item-icon{
+    font-size: 14px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0%;
+    transform: translateY(-50%);
+    left: 40px;
+}
+
+.about-item__content{
+    position: absolute;
+    top: 50%;
+    background: rgba(49, 18, 75, .8);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 40px;
+}
+
+
+.about-content{
+    display: flex;
+}
+.about-item__header{
+   position: absolute;
+   background-color: #fff;
+   top: 0;
+   transform: translateY(-50%);
+   left: 40px;
+   padding: 8px 12px;
+}
+
+.about-item__name{
+    font-size: 14px;
+    color: #2d2d2d;
+    font-weight: 600;
+}
+
+.about-item__date{
+    font-size: 11px;
+    color: #2d2d2d;
+    font-weight: 300;
+}
+
+.about-item__body span{
+    font-size: 20px;
+    display: block;
+    margin: 35px 0 10px 0;
+    color: #ffff;
+}

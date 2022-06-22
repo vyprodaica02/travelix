@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="header" style="background-image: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)), url('https://tranhoangkhang1212.github.io/travelix/assets/images/bg_header.webp') ;" >
+        <div class="header-top">
+            <div class="wide">
+                <div class="flex-sb">
+                    <div class="header-top-contact">
+                        <span>+84 0357722914</span>
+                            <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-solid fa-at"></i></a>
+                    </div>
+                    <div class="header-login flex">
+                        <span>LOGIN</span>
+                        <p>|</p>
+                        <span>REGISTER</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-nav">
+            <div class="wide">
+
+                <div class="header-nav-container">
+                    <div class="header-nav-logo flex">
+                        <img src="https://khoatranvn00.github.io/travelix/assets/images/logo.webp" alt="">
+                        Travelix                             
+                    </div>
+
+                    <div class="header-nav-list hide-table">
+                        <ul class="flex">
+                            <a href="#"> 
+                                <li class="header-nav-item">about</li>
+                            </a>
+
+                            <a href="./about.html">
+                                <li class="header-nav-item">about</li>
+                            </a>
+
+                            <a href="./offer.html">
+                                <li class="header-nav-item">offers</li>
+                            </a>
+
+                            <a href="#">
+                                <li class="header-nav-item">news</li>
+                            </a>
+
+                            <a href="#">
+                                <li class="header-nav-item">contact</li>
+                            </a>
+
+                        </ul>
+                    </div>
+
+                    <div class="header-nav-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <label for="" class="icon-bars_mb">
+                            <i class="fa-solid fa-bars"></i>
+                        </label>
+                        <input type="text" class="search-input" placeholder="Search">
+                    </div>
+
+                    <div class="overlay">
+                    </div>
+                        <div class="header-mb-bar">
+                            <i class="fa-solid fa-x"></i>
+                            <ul class="header-nav-list_mobile">
+                                  <a href="#"> 
+                                <li class="header-nav-item">Home</li>
+                            </a>
+                            
+                            <a href="./about.html">
+                                <li class="header-nav-item">About</li>
+                            </a>
+
+                            <a href="./offer.html">
+                                <li class="header-nav-item">Offers</li>
+                            </a>
+
+                            <a href="#">
+                                <li class="header-nav-item">News</li>
+                            </a>
+
+                            <a href="#">
+                                <li class="header-nav-item">Contact</li>
+                            </a>
+                            </ul>
+                        </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="header-slider">
+
+            <div class="header-slider-content">
+                <h1 class="header-silder-title">
+                    DISCOVER</h1>
+
+                    <span>the world</span>
+            </div>
+
+            <div class="btn-wrap">
+                <div class="btn-bg"></div>
+                <span class="btn">EXPLORE NOW ....</span>
+            </div>
+            
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="search">
+            <div class="wide">
+                <div class="search-container">
+                    <div class="search-header">
+                        
+                            <ul class="searh-header-list_pc ">
+                                <li class="search-item">
+                                    <img src="./img/hotel.webp" alt="">
+                                    hotels</li>
+                                  <li class="search-item">
+                                    <img src="./img/car.webp" alt="">
+                                    car rentals</li>
+                                  <li class="search-item">
+                                    <img src="./img/fly.webp" alt="">
+                                    flights</li>
+                                  <li class="search-item">
+                                    <img src="./img/trip.webp" alt="">
+                                    trips</li>
+                                  <li class="search-item">
+                                    <img src="./img/cruises.webp" alt="">
+                                    cuises</li>
+                                  <li class="search-item">
+                                    <img src="./img/activities.webp" alt="">
+                                    active</li>
+                            </ul>
+                        
+                    </div>
+                    <div class="flex search-list">
+                        
+                        <div class="l-4 col l-5 m-10">
+                            <div class="search__section">
+                                <div class="search__label">DESTINATION</div>
+                                <input type="text" class="search__input">
+                            </div>
+                        </div>
+
+                        <div class="l-2 col l-5 m-10 ">
+                            <div class="search__section">
+                                <div class="search__label">CHECK IN</div>
+                                <input type="text" class="search__input">
+                            </div>
+                        </div>
+
+                        <div class="l-2 col l-5 m-10">
+                            <div class="search__section">
+                                <div class="search__label">CHECK OUT</div>
+                                <input type="text" class="search__input">
+                            </div>
+                        </div>
+
+                        <div class="l-1 col l-3 m-5">
+                            <div class="search__section">
+                                <div class="search__label">ADULTS</div>
+                                <input type="number" class="search__input">
+                            </div>
+                        </div>
+
+                        <div class="l-1 col l-3 m-5">
+                            <div class="search__section">
+                                <div class="search__label">CHILDREN</div>
+                                <input type="number" class="search__input">
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    
+
+                        <div class="l-2 mg l-5 ">
+                            <div class="search-btn">search...</div>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tour">
+            <div class="wide">
+                <div class="tour-content ">
+                    <h2 class="section-title">
+                        We have the best tours
+                    </h2>
+                    <p class="tour-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.
+                        Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</p>
+                </div>
+                
+                <div class="tour">
+                    <div class="tour-list flex-column_table">
+                        <div class="tour-item l-4 l-10" >
+                            
+                            <div class="tour-desc">
+                                <p class="tour-date">May 15th - July 01st</p>
+                                <div class="tour_container">
+                                    <div class="tour-item-title">Scotland</div>
+                                    <div class="tour-price">From $1450</div>
+                                    <div class="tour-ranking">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                      </div>
+                                </div>
+                                <div class="btn-wrap">
+                                    <div class="btn-bg"></div>
+                                    <span class="btn">EXPLORE NOW ....</span>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="tour-item l-4 l-10" >
+                            
+                            <div class="tour-desc">
+                                <p class="tour-date">May 15th - July 01st</p>
+                                <div class="tour_container">
+                                    <div class="tour-item-title">Scotland</div>
+                                    <div class="tour-price">From $1450</div>
+                                    <div class="tour-ranking">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                      </div>
+                                </div>
+                                <div class="btn-wrap">
+                                    <div class="btn-bg"></div>
+                                    <span class="btn">EXPLORE NOW ....</span>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="tour-item l-4 l-10" >
+                            
+                            <div class="tour-desc">
+                                <p class="tour-date">May 15th - July 01st</p>
+                                <div class="tour_container">
+                                    <div class="tour-item-title">Scotland</div>
+                                    <div class="tour-price">From $1450</div>
+                                    <div class="tour-ranking">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                      </div>
+                                </div>
+                                <div class="btn-wrap">
+                                    <div class="btn-bg"></div>
+                                    <span class="btn">EXPLORE NOW ....</span>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="package">
+            <div class="wide">
+                <div class="package-container">
+                    <div class="package-content">
+                        <h4 class="section-title">MALDIVES DELUXE PACKAGE</h4>
+                        <div class="tour-ranking">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+
+                          <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu,
+                            vitae cursus mi hendrerit nec. Proin bibendum, augue faucibus tincidunt ultrices, tortor augue gravida lectus, et efficitur enim justo vel ligula.</p>
+                        </div>
+                        <div class="btn-wrap">
+                          <div class="btn-bg"></div>
+                          <span class="btn">EXPLORE NOW ....</span>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="offer">
+            <div class="wide ">
+                <h2 class="section-title">
+                    THE BEST OFFERS WITH ROOMS
+                </h2>
+
+                <div class="offer-container flex-column_table">
+                    <div class="l-5 l-10 m-10">
+                        <div class="offer-item flex flex-cl_mb">
+                            <div class="offers-item__bg l-5 m-10">
+                                <a href="" class="offers-item__name">GRAND CASTLE</a>
+                            </div>
+                            <div class="offers-item__container">
+                                <div class="offer-content">
+                                    <h4 class="offer-price">
+                                        $80
+                                        <span>per night</span>
+                                    </h4>
+                                    <div class="tour-ranking">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                      </div>
+                                      <p class="offers-item__desc">Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</p>
+                                      <div class="offer-icon flex">
+                                        <img src="https://khoatranvn00.github.io/travelix/assets/images/ofi1.webp" alt="" class="offer-icon_img">
+                                        <img src="https://khoatranvn00.github.io/travelix/assets/images/ofi2.webp" alt="" class="offer-icon_img">
+                                        <img src="https://khoatranvn00.github.io/travelix/assets/images/ofi3.webp" alt="" class="offer-icon_img">
+                                        <img src="https://khoatranvn00.github.io/travelix/assets/images/ofi4.webp" alt="" class="offer-icon_img">
+                                      </div>
+                                </div>
+                                <a href="" class="offers-item__link">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="l-5 l-10 m-10">
+                        <div class="offer-item flex flex-cl_mb">
+                            <div class="offers-item__bg l-5 m-10">
+                                <a href="" class="offers-item__name">GRAND CASTLE</a>
+                            </div>
+                            <div class="offers-item__container">
+                                <div class="offer-content">
+                                    <h4 class="offer-price">
+                                        $80
+                                        <span>per night</span>
+                                    </h4>
+                                    <div class="tour-ranking">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                      </div>
+                                      <p class="offers-item__desc">Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</p>
+                                      <div class="offer-icon flex">
+                                        <img src="https://khoatranvn00.github.io/travelix/assets/images/ofi1.webp" alt="" class="offer-icon_img">
+                                        <img src="https://khoatranvn00.github.io/travelix/assets/images/ofi2.webp" alt="" class="offer-icon_img">
+                                        <img src="https://khoatranvn00.github.io/travelix/assets/images/ofi3.webp" alt="" class="offer-icon_img">
+                                        <img src="https://khoatranvn00.github.io/travelix/assets/images/ofi4.webp" alt="" class="offer-icon_img">
+                                      </div>
+                                </div>
+                                <a href="" class="offers-item__link">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="l-5 l-10 m-10">
+                        <div class="offer-item flex flex-cl_mb">
+                            <div class="offers-item__bg l-5 m-10">
+                                <a href="" class="offers-item__name">GRAND CASTLE</a>
+                            </div>
+                            <div class="offers-item__container">
+                                <div class="offer-content">
+                                    <h4 class="offer-price">
+                                        $80
+                                        <span>per night</span>
+                                    </h4>
+                                    <div class="tour-ranking">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                      </div>
+                                      <p class="offers-item__desc">Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</p>
+                                      <div class="offer-icon flex">
+                                        <img src="https://khoatranvn00.github.io/travelix/assets/images/ofi1.webp" alt="" class="offer-icon_img">
+                                        <img src="https://khoatranvn00.github.io/travelix/assets/images/ofi2.webp" alt="" class="offer-icon_img">
+                                        <img src="https://khoatranvn00.github.io/travelix/assets/images/ofi3.webp" alt="" class="offer-icon_img">
+                                        <img src="https://khoatranvn00.github.io/travelix/assets/images/ofi4.webp" alt="" class="offer-icon_img">
+                                      </div>
+                                </div>
+                                <a href="" class="offers-item__link">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="l-5 l-10 m-10">
+                        <div class="offer-item flex flex-cl_mb">
+                            <div class="offers-item__bg l-5 m-10">
+                                <a href="" class="offers-item__name">GRAND CASTLE</a>
+                            </div>
+                            <div class="offers-item__container">
+                                <div class="offer-content">
+                                    <h4 class="offer-price">
+                                        $80
+                                        <span>per night</span>
+                                    </h4>
+                                    <div class="tour-ranking">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                      </div>
+                                      <p class="offers-item__desc">Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</p>
+                                      <div class="offer-icon flex">
+                                        <img src="https://khoatranvn00.github.io/travelix/assets/images/ofi1.webp" alt="" class="offer-icon_img">
+                                        <img src="https://khoatranvn00.github.io/travelix/assets/images/ofi2.webp" alt="" class="offer-icon_img">
+                                        <img src="https://khoatranvn00.github.io/travelix/assets/images/ofi3.webp" alt="" class="offer-icon_img">
+                                        <img src="https://khoatranvn00.github.io/travelix/assets/images/ofi4.webp" alt="" class="offer-icon_img">
+                                      </div>
+                                </div>
+                                <a href="" class="offers-item__link">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="wide">
+                <h4 class="section-title">WHAT OUR CLIENTS SAY ABOUT US</h4>
+                <div class="about-content flex-column_table">
+                    <div class="l-4 l-5 m-10 l-10">
+                        <div class="about-item">
+
+                            <div class="about-item-icon">
+                                <img src="https://khoatranvn00.github.io/travelix/assets/images/abi1.webp" alt="">
+                            </div>
+
+                            <div class="about-item__content">
+                                <div class="about-item__header">
+                                    <h6 class="about-item__name">CARLA SMITH</h6>
+                                    <p class="about-item__date">May 24, 2020</p>
+                                </div>
+                                
+                                <div class="about-item__body">
+                                    <span>" Best holliday ever "</span>
+                                    <p>Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</p>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="l-4 l-5 m-10 l-10">
+                        <div class="about-item">
+
+                            <div class="about-item-icon">
+                                <img src="https://khoatranvn00.github.io/travelix/assets/images/abi1.webp" alt="">
+                            </div>
+
+                            <div class="about-item__content">
+                                <div class="about-item__header">
+                                    <h6 class="about-item__name">CARLA SMITH</h6>
+                                    <p class="about-item__date">May 24, 2020</p>
+                                </div>
+                                
+                                <div class="about-item__body">
+                                    <span>" Best holliday ever "</span>
+                                    <p>Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</p>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="l-4 hide-table">
+                        <div class="about-item">
+
+                            <div class="about-item-icon">
+                                <img src="https://khoatranvn00.github.io/travelix/assets/images/abi1.webp" alt="">
+                            </div>
+
+                            <div class="about-item__content">
+                                <div class="about-item__header">
+                                    <h6 class="about-item__name">CARLA SMITH</h6>
+                                    <p class="about-item__date">May 24, 2020</p>
+                                </div>
+                                
+                                <div class="about-item__body">
+                                    <span>" Best holliday ever "</span>
+                                    <p>Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</p>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="trending">
+            <div class="wide">
+                <h4 class="section-title">
+                    TRENDING NOW
+                </h4>
+
+                <div class="trending-content">
+                    <div class="l-3 l-4 m-5">
+                        <div class="trending-item flex-column_table">
+                            <div class="trending-item_img">
+                                <img src="https://khoatranvn00.github.io/travelix/assets/images/td2.webp" alt="">
+                            </div>
+
+                            <div class="trending-item_content">
+                                <a href="" class="trending-item__name">GRAND HOTEL</a>
+                                <p class="trending-item__price">Form $182</p>
+                                <p class="trending-item__place">MADRID, SPAIN</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="l-3 l-4 m-5">
+                        <div class="trending-item flex-column_table">
+                            <div class="trending-item_img">
+                                <img src="https://khoatranvn00.github.io/travelix/assets/images/td3.webp" alt="">
+                            </div>
+
+                            <div class="trending-item_content">
+                                <a href="" class="trending-item__name">GRAND HOTEL</a>
+                                <p class="trending-item__price">Form $182</p>
+                                <p class="trending-item__place">MADRID, SPAIN</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="l-3 l-4 m-5">
+                        <div class="trending-item flex-column_table">
+                            <div class="trending-item_img">
+                                <img src="https://khoatranvn00.github.io/travelix/assets/images/td4.webp" alt="">
+                            </div>
+
+                            <div class="trending-item_content">
+                                <a href="" class="trending-item__name">GRAND HOTEL</a>
+                                <p class="trending-item__price">Form $182</p>
+                                <p class="trending-item__place">MADRID, SPAIN</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="l-3 l-4 m-5">
+                        <div class="trending-item flex-column_table">
+                            <div class="trending-item_img">
+                                <img src="https://khoatranvn00.github.io/travelix/assets/images/td5.webp" alt="">
+                            </div>
+
+                            <div class="trending-item_content">
+                                <a href="" class="trending-item__name">GRAND HOTEL</a>
+                                <p class="trending-item__price">Form $182</p>
+                                <p class="trending-item__place">MADRID, SPAIN</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="l-3 l-4 m-5">
+                        <div class="trending-item flex-column_table">
+                            <div class="trending-item_img">
+                                <img src="https://khoatranvn00.github.io/travelix/assets/images/td6.webp" alt="">
+                            </div>
+
+                            <div class="trending-item_content">
+                                <a href="" class="trending-item__name">GRAND HOTEL</a>
+                                <p class="trending-item__price">Form $182</p>
+                                <p class="trending-item__place">MADRID, SPAIN</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="l-3 l-4 m-5">
+                        <div class="trending-item flex-column_table">
+                            <div class="trending-item_img">
+                                <img src="https://khoatranvn00.github.io/travelix/assets/images/td7.webp" alt="">
+                            </div>
+
+                            <div class="trending-item_content">
+                                <a href="" class="trending-item__name">GRAND HOTEL</a>
+                                <p class="trending-item__price">Form $182</p>
+                                <p class="trending-item__place">MADRID, SPAIN</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="l-3 l-4 hide-table">
+                        <div class="trending-item flex-column_table">
+                            <div class="trending-item_img">
+                                <img src="https://khoatranvn00.github.io/travelix/assets/images/td8.webp" alt="">
+                            </div>
+
+                            <div class="trending-item_content">
+                                <a href="" class="trending-item__name">GRAND HOTEL</a>
+                                <p class="trending-item__price">Form $182</p>
+                                <p class="trending-item__place">MADRID, SPAIN</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="l-3 l-4 hide-table">
+                        <div class="trending-item">
+                            <div class="trending-item_img">
+                                <img src="https://khoatranvn00.github.io/travelix/assets/images/td1.webp" alt="">
+                            </div>
+
+                            <div class="trending-item_content">
+                                <a href="" class="trending-item__name">GRAND HOTEL</a>
+                                <p class="trending-item__price">Form $182</p>
+                                <p class="trending-item__place">MADRID, SPAIN</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="contact-bg"></div>
+            <div class="zindex l-o-5">
+            <div class="wide">
+                <div class="contact-container">
+                    <h4 class="contact-form_title">
+                        GET IN TOUCH
+                    </h4>
+                        <form action="" class="contact-form">
+                            <input type="text" placeholder="Name" class="contact-input contact-input1">
+                            <input type="email" placeholder="Emain" class="contact-input contact-input1">
+                            <input type="text" placeholder="Subject" class="contact-input">
+                            <textarea name="" id="" cols="5" rows="10" class="contact-input" placeholder="Message"></textarea>
+                            <div class="search-btn">search...</div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="wide">
+                <div class="footer-container ">
+                    <div class="l-3 l-5 l-10 col">
+                        <div class="footer-item">
+                            <div class="footer-logo header-nav-logo flex">
+                                <img src="https://khoatranvn00.github.io/travelix/assets/images/logo.webp" alt="">
+                                Travelix
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis vu lputate eros, iaculis consequat nisl. Nunc et suscipit urna. Integer eleme ntum orci eu vehicula pretium.</p>
+                            <div class="footer-social-list">
+                                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-solid fa-at"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="l-3 l-5 l-10 col">
+                        <h2 class="footer-item_name">
+                            BLOG POSTS
+                        </h2>
+                        <div class="footer-item_blog">
+
+                            <div class="footer-item-blog">
+                                <div class="item_img">
+                                  <img src="https://khoatranvn00.github.io/travelix/assets/images/fb1.webp" alt="">
+                                </div>
+                                <div class="blog-title">
+                                  <h2 class="blog-name">Travel with us this year</h2>
+                                  <span class="blog-date">July 20, 2021</span>
+                                </div>
+                              </div>
+
+                              <div class="footer-item-blog">
+                                <div class="item_img">
+                                  <img src="https://khoatranvn00.github.io/travelix/assets/images/fb2.webp" alt="">
+                                </div>
+                                <div class="blog-title">
+                                  <h2 class="blog-name">Travel with us this year</h2>
+                                  <span class="blog-date">July 20, 2021</span>
+                                </div>
+                              </div>
+
+                              <div class="footer-item-blog">
+                                <div class="item_img">
+                                  <img src="https://khoatranvn00.github.io/travelix/assets/images/fb3.webp" alt="">
+                                </div>
+                                <div class="blog-title">
+                                  <h2 class="blog-name">Travel with us this year</h2>
+                                  <span class="blog-date">July 20, 2021</span>
+                                </div>
+                              </div>
+
+                        </div>
+                    </div>
+
+                    <div class="l-3 l-5 l-10 col">
+                        <h2 class="footer-item_name">
+                            TAGS
+                        </h2>
+
+                        <div class="tag-item">
+                            <a href="" class="footer-tag__link">design</a>
+                            <a href="" class="footer-tag__link">fashion</a>
+                            <a href="" class="footer-tag__link">music</a>
+                            <a href="" class="footer-tag__link">video</a>
+                            <a href="" class="footer-tag__link">party</a>
+                            <a href="" class="footer-tag__link">photography</a>
+                            <a href="" class="footer-tag__link">adventure</a>
+                            <a href="" class="footer-tag__link">travel</a>
+                          </div>
+                    </div>
+                    <div class="l-3 l-5 l-10 col">
+                        <h2 class="footer-item_name">
+                            CONTACT INFO
+                        </h2>
+                        <div class="footer-item_infor">
+                                                 
+                                <div class="footer-info-item">
+                                  <img src="https://khoatranvn00.github.io/travelix/assets/images/fi1.svg" class="footer-info-item__img">
+                                  <a href="" class="footer-info-item__content">Hà Nội</a>
+                                </div>
+          
+                               <div class="footer-info-item">
+                                <img src="https://khoatranvn00.github.io/travelix/assets/images/fi2.svg" class="footer-info-item__img">
+                                <a href="" class="footer-info-item__content">+84 0357722914</a>
+                               </div>
+          
+                                <div class="footer-info-item">
+                                <img src="https://khoatranvn00.github.io/travelix/assets/images/fi3.svg" class="footer-info-item__img">
+                                <a href="" class="footer-info-item__content">duc.luongming@gmail.com</a>
+                               </div>
+          
+                            <div class="footer-info-item">
+                              <img src="https://khoatranvn00.github.io/travelix/assets/images/fi4.svg" class="footer-info-item__img">
+                              <a href="" class="footer-info-item__content">www.fullstack.edu.vn</a>
+                          </div>
+                                        
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    Copyright © 2022 By <a href="" class="footer-copyright__link">Lương Minh Đức</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="./js/app2.js"></script>
+</body>
+</html>

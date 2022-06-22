@@ -1,0 +1,86 @@
+
+.offer{
+    padding: 60px 0;
+    background: #f3f6f9;
+}
+
+.offer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.offer-item{
+    margin: 0 12px 20px 12px;
+}
+.offers-item__container{
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.offers-item__bg{
+    background-image: url('https://khoatranvn00.github.io/travelix/assets/images/offersbg1.webp');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 50%;
+    padding-top: 60%;
+    position: relative;
+}
+
+.offers-item__name{
+     position: absolute;
+     background-color: var(--primary-color);
+     font-size: 16px;
+     padding: 8px 24px;
+     color: #fff;
+     min-width: 170px;
+     bottom: 20px;
+     left: 0;
+}
+
+.offers-item__name:hover{
+    opacity: 0.9;
+}
+
+.offer-price{
+    color: var(--primary-color);
+    font-size: 36px;
+    font-weight: 700;
+    display: flex;
+    line-height: 26px;
+    align-items: baseline
+}
+
+.offer-price span{
+    font-size: 14px;
+    margin-left: 5px;
+    color: #919191;
+}
+
+.offers-item__desc{
+    font-size: 14px;
+    margin: 10px 0  ;
+    color: #919191;
+}
+
+
+.offer-icon img{
+    margin: 10px;
+}
+
+.offers-item__link{
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+@media screen and (max-width:739px) {
+    .flex-cl_mb{
+        display: flex;
+        flex-direction: column;
+    }
+}

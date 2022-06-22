@@ -1,0 +1,322 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+html,
+body {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--text-color);
+
+}
+body {
+  line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+}
+a{
+  color: var(--text-color);
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+
+:root{
+    --primary-color: #fa9e1b;
+    --violet: #8d4fff;
+    --text-color: #ffff;
+}
+
+@font-face {
+    font-family: 'Beyond';
+    src: url('/font/beyond_the_mountains.otf') format('truetype'),url('/assets/font/beyond_the_mountains.otf') format('opentype');
+}
+.text-right{
+  text-align: right;
+}
+.flex{
+    display: flex;
+}
+.flex-ct{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flext-column_ct{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-sb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-wrab{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-wrap{
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    display: inline-block
+}
+.btn-bg{
+  background: linear-gradient(to right, #fa9e1b, #8d4fff, #fa9e1b);
+  width: 200%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(0);
+  transition: transform linear .3s;
+}
+.btn-wrap:hover .btn-bg{
+    transform: translateX(-130px);
+}
+.btn{
+  border: none;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 16px 30px;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    cursor: pointer;
+}
+.col{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+
+
+
+.section-title{
+    font-size: 32px;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.zindex{
+  position: relative;
+  z-index: 9;
+}
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: block !important;
+}
+
+.l-5{
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.pc-10{
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.pc-3{
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;;
+}
+
+@media screen and (min-width:1024px) {
+  .wide{
+    width: 1200px;
+    margin: 0 auto;
+}
+  .mg{
+    margin-left: 68%
+  }
+  .l-6{
+    flex: 0 0 58%;
+    max-width: 58%;
+  }
+
+  .l-5{
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+
+  .l-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+
+  .l-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+  
+  .l-2 {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+  }
+  
+  .l-1 {
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+  }
+
+  .l-o-5 {
+    margin-left: 50%;
+}
+}
+.icon-bars_mb{
+  opacity: 0;
+  visibility: hidden;
+}
+
+.padding_bt{
+  padding-bottom: 35px;
+}
+
+@media (min-width: 1023px) and (max-width:1239px){
+  .wide {
+      width: 984px;
+  }
+
+}
+
+@media screen and (max-width:1023px) {
+  .flex-column_table{
+      display: flex;
+      flex-direction: column;
+    }
+    .icon-bars_mb{
+      opacity: 1;
+      visibility: visible;
+      margin-left: 12px;
+
+  }
+  .search__container__extras--item{
+    width: 33.33333%;
+  }
+}
+
+/* table */
+
+@media screen and (min-width:739px) and (max-width: 1023px){
+  .wide{
+    width: 644px;
+    margin: auto;
+  }
+
+  .hide-table{
+    display: none !important;
+  }
+
+  .l-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .l-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+  .tb-4{
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+
+  .l-5{
+    flex: 0 0 50%;
+    max-width: 50%;
+  } 
+  .l-10{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .col2{
+    margin: 0 8px;
+  }
+
+  .mg{
+    margin-left: 25%
+  }
+
+  .m-2{
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+  }
+  .mg2{
+    margin-top: 10px;
+    margin-left: 50%;
+  }
+
+}
+
+/* mobile */
+
+@media screen and (max-width: 739px) {
+  .hide-table{
+    display: none !important;
+  }
+
+  .m-5{
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .m-10{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .mg{
+    margin-left: 25%
+  }
+  .lists{
+    padding: 0 10px;
+}
+}

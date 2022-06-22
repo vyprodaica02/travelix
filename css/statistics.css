@@ -1,0 +1,146 @@
+.statistics{
+    padding: 100px 0;
+}
+
+.statistics-year{
+    display: flex;
+    padding: 0 100px;
+}
+
+.last-year,
+.first-year{
+    color: var(--primary-color);
+    font-weight: 600;
+    padding: 0 12px;
+}
+.statistics-item-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+}
+.content__item__stats {
+    padding: 0 10px;
+}
+.stats__bar__value{
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    font-weight: 600;
+    color: #a5a5a5;
+}
+
+.stats__bar__perc--left{
+    height: 3px;
+    background-color: #e1e1e1;
+    float: left;
+}
+
+.stats__bar__perc--right{
+    height: 3px;
+    float: right;
+}
+
+.stats__number{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+}
+
+.stats__type{
+    font-size: 14px;
+    font-weight: 600;
+    color: #929191;
+}
+
+.stats__bar__perc{
+    flex: 0 0 66.666%;
+    max-width: 66.666%;
+    padding: 0 42px;
+    position: relative;
+}
+
+.statistics-container{
+    padding: 0 30px;
+}
+
+.sale-container{
+    height: 295px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0 15px;
+    margin-bottom: 90px;
+}
+
+.sale-content{
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.sale-title{
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.sale-price{
+    font-size: 18px;
+    margin-bottom: 35px;
+    margin-left: 5px;
+}
+
+.sale-price span{
+    font-weight: 700;
+}
+
+.milestones {
+    padding-bottom: 90px;
+}
+
+.milestones-item {
+    font-size: 48px;
+    font-weight: 600;
+    color: #000;
+    margin-top: 15px;
+}
+
+.milestones-item-text{
+    font-size: 14px;
+    font-weight: 600;
+    color: #9a9999;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width:740px) {
+    .tour-wrab{
+        flex: 0 0 42%;
+        width: 42%;
+    }
+}
+@media screen and (min-width:740px) and (max-width:1023px) {
+    .sale-content{
+        right: 20%;
+
+    }
+}
+@media screen and (max-width:739px) {
+
+    .statistics{
+        padding: 100px 20px;
+    }
+    .sale-content{
+        right: -10%;
+    }
+
+    .tour-container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+}
